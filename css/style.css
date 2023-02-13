@@ -130,11 +130,11 @@ a {
     line-height: 10px;
 }
 
-/* RESIDENTIAL & OFFICE SPACES*/
+/* Section 2*/
 .section2-container {
-    margin-left: 48px;
-    margin-right: 98px;
-    margin-top: 31px;
+    padding-left: 48px;
+    padding-right: 98px;
+    padding-top: 31px;
     height: 308px;
 }
 
@@ -214,4 +214,42 @@ a {
     background-color: #F85A47;
     border-color: #F85A47;
     margin-left: 202px;
+}
+
+/* Section 3 */
+.section3-container {
+    padding-top: 39px;
+    padding-right: 98px;
+    padding-left: 31px;
+}
+
+.section3-main-headline {
+    margin: 0;
+    margin-left: 205px;
+    margin-right: 222px;
+    text-align: center;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1;
+    color: #31353B;
+}
+
+.section3-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    margin-right: 55px;
+    margin-left: 48px;
+    margin-top: 23px;
+}
+
+.section3-list-item:not(:last-child) {
+    margin-right: 47px;
+}
+
+.section3-list-item {
+    width: 75px;
 }
