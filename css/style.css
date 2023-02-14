@@ -1,3 +1,24 @@
+/* manrope-600 - greek_cyrillic */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/manrope-v13-greek_cyrillic-600.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/manrope-v13-greek_cyrillic-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/manrope-v13-greek_cyrillic-600.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/manrope-v13-greek_cyrillic-600.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/manrope-v13-greek_cyrillic-600.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/manrope-v13-greek_cyrillic-600.svg#Manrope') format('svg');
+    /* Legacy iOS */
+}
+
 /* manrope-700 - greek_cyrillic */
 @font-face {
     font-display: swap;
@@ -80,6 +101,27 @@
         url('../fonts/dm-sans-v11-latin-700.ttf') format('truetype'),
         /* Safari, Android, iOS */
         url('../fonts/dm-sans-v11-latin-700.svg#DMSans') format('svg');
+    /* Legacy iOS */
+}
+
+/* roboto-regular - greek_cyrillic */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-greek_cyrillic-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/roboto-v30-greek_cyrillic-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/roboto-v30-greek_cyrillic-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/roboto-v30-greek_cyrillic-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/roboto-v30-greek_cyrillic-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/roboto-v30-greek_cyrillic-regular.svg#Roboto') format('svg');
     /* Legacy iOS */
 }
 
@@ -252,4 +294,101 @@ a {
 
 .section3-list-item {
     width: 75px;
+}
+
+/* Section4 */
+.section4-container {
+    padding-top: 55px;
+    padding-left: 30px;
+    padding-right: 31px;
+}
+
+.section4-main-headline {
+    margin: 0;
+    margin-left: 202px;
+    margin-right: 253px;
+    text-align: center;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1;
+}
+
+.section4-items {
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 31px;
+    display: flex;
+}
+
+.item1 {
+    margin-left: 21px;
+}
+
+.item1-img {
+    margin-left: 40px;
+}
+
+.item1-headline {
+    margin: 0;
+    margin-top: -65px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 21px;
+    margin-left: 4px;
+}
+
+.item1-description {
+    margin: 0;
+    margin-top: 5px;
+    margin-left: -6px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.item2-img {
+    margin-left: 365px;
+}
+
+.item2-headline {
+    margin: 0;
+    margin-left: 340px;
+    margin-top: -65px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1;
+}
+
+.item2-description {
+    margin: 0;
+    margin-top: 9px;
+    margin-left: 315px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.item3-img {
+    margin-left: 365px;
+}
+
+.item3-headline {
+    margin: 0;
+    margin-left: 345px;
+    margin-top: -65px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1;
+}
+
+.item3-description {
+    margin: 0;
+    margin-top: 9px;
+    margin-left: 315px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
 }
